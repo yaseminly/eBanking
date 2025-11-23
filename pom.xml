@@ -15,6 +15,7 @@
     <modules>
         <module>EurekaServer</module>
         <module>compte-service</module>
+        <module>gateway-service</module>
 
     </modules>
 
