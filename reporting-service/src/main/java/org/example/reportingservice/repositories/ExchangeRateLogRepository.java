@@ -1,4 +1,4 @@
-package repositories;
+package org.example.reportingservice.repositories;
 
 import org.example.reportingservice.entities.ExchangeRateLog;
 import org.springframework.data.jpa.repository.JpaRepository;

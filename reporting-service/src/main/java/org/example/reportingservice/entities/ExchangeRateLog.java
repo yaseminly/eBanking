@@ -17,9 +17,10 @@ public class ExchangeRateLog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-  // yaya
+
     private String fromCurrency;
     private String toCurrency;
     private BigDecimal rate;
+
     private LocalDateTime requestedAt;
 }

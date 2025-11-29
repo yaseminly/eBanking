@@ -1,7 +1,10 @@
 package org.example.reportingservice.dto;
 
+import lombok.Data;
+
 import java.util.Map;
 
+@Data
 public class ExchangeRateResponse {
     private boolean success;
     private String base;
